@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <style>
+            button{
+                background-color: red;
+                width: 100%;
+                height: 300px;
+                font-size: 90px;
+            }
+            #video{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                gap:20px;
+                padding:20px;
+            }
+        </style>
+                       <meta charset="UTF-8">
+                        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+                         <!-- SEO -->
+                        <meta name="title" content="Vídeos de Mortal Kombat - Lutas, Fatalities e Mais">
+                        <meta name="description" content="Assista aos melhores vídeos de Mortal Kombat: fatalities, combos, trailers, lutas épicas e muito mais!">
+                        <meta name="keywords" content="Mortal Kombat, vídeos Mortal Kombat, fatalities, Kombat, lutas MK, Scorpion, Sub-Zero, MK11, MK12, gameplay Mortal Kombat, trailer Mortal Kombat">
+                        <meta name="author" content="SeuNomeAqui">
+
+                        <!-- Open Graph (para Facebook, LinkedIn, etc) -->
+                        <meta property="og:type" content="website">
+                        <meta property="og:url" content="https://seusite.com/mortal-kombat">
+                        <meta property="og:title" content="Vídeos de Mortal Kombat - Lutas, Fatalities e Mais">
+                        <meta property="og:description" content="Os melhores vídeos de Mortal Kombat reunidos em um só lugar!">
+                        <meta property="og:image" content="https://seusite.com/imagens/mortal-kombat-thumb.jpg">
+
+                        <!-- Twitter Card -->
+                        <meta name="twitter:card" content="summary_large_image">
+                        <meta name="twitter:url" content="https://seusite.com/mortal-kombat">
+                        <meta name="twitter:title" content="Vídeos de Mortal Kombat - Lutas, Fatalities e Mais">
+                        <meta name="twitter:description" content="Assista aos vídeos mais incríveis de Mortal Kombat: fatalities, lutas, trailers e muito mais.">
+
+
+    <title>Vídeos de Mortal Kombat</title>
+        
+    </head>
+    <body>
+        <div id="video"></div>
+        <button id="btn">Carregar+</button>
+        <script src="videos.js"></script>
+
+    </body>
+</html>
